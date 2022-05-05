@@ -26,5 +26,7 @@
 		<input type="text" name="seventh" id="seventh" value="${seventh}"> 
         <input type="submit" name="sign" value="Calculate">
     </form>
+    
+    <a href="${pageContext.request.contextPath}/Info.jsp">Инфо</a>
     </body>
 </html>
