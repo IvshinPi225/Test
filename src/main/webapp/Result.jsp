@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Результат сложения</title>
+<title>Результат</title>
 </head>
 <style>
 
@@ -13,10 +13,7 @@ background-color: #00b33c;
 }
 </style>
 <body>
-<h1>Результат сложения</h1>
-<h2>Ваши введеные данные:</h2>
-<p><strong>Первое слагаемое:</strong> ${first}</p>
-<p><strong>Второе слагаемое:</strong> ${second}</p>
+<h1>Результат </h1>
 <p><strong>Результат:</strong> ${result}</p>
 </body>
 </html>
