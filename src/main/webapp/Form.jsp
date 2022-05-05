@@ -6,8 +6,16 @@
 <meta charset="UTF-8">
 <title>Калькулятор - сложение целых чисел</title>
 </head>
+<style>
+
+body{
+background-color: #00b33c;
+}
+</style>
 <body>
 
+ background-color: #00b33c;
+ 
 <h1>Калькулятор - сложение целых чисел</h1>>
     <form action="${pageContext.request.contextPath}/Calc" method="post">
         <label for="first">Первое слагаемое:</label>

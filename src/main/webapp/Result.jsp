@@ -6,6 +6,12 @@
 <meta charset="UTF-8">
 <title>Результат сложения</title>
 </head>
+<style>
+
+body{
+background-color: #00b33c;
+}
+</style>
 <body>
 <h1>Результат сложения</h1>
 <h2>Ваши введеные данные:</h2>
