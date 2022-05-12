@@ -21,7 +21,7 @@ public class LoginServlet extends HttpServlet {
 			throws ServletException, IOException {
 
 		RequestDispatcher dispatcher //
-				= this.getServletContext().getRequestDispatcher("/WEB-INF/views/loginView.jsp");
+				= this.getServletContext().getRequestDispatcher("/loginView.jsp");
 
 		dispatcher.forward(request, response);
 	}
@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet {
 			request.setAttribute("errorMessage", errorMessage);
 
 			RequestDispatcher dispatcher //
-					= this.getServletContext().getRequestDispatcher("/WEB-INF/views/loginView.jsp");
+					= this.getServletContext().getRequestDispatcher("loginView.jsp");
 
 			dispatcher.forward(request, response);
 			return;
@@ -60,7 +60,7 @@ public class LoginServlet extends HttpServlet {
 		} else {
 			// По умолчанию после успешного входа в систему
 			// перенаправить на страницу /userInfo
-			response.sendRedirect(request.getContextPath() + "/userInfo");
+			response.sendRedirect(request.getContextPath());
 		}
 
 	}
