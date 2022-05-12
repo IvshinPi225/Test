@@ -40,9 +40,7 @@ background-color: #00b33c;
 		 
         <input type="submit" name="sign" value="Calculate">
     </form>
-    
-	<a href="<c:url value='/logout' />">Logout</a>
-    
+
     <a href="${pageContext.request.contextPath}/Info.jsp">Информация о команде</a>
     </body>
 </html>
