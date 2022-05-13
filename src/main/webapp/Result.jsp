@@ -13,7 +13,7 @@ background-color: #00b33c;
 }
 </style>
 <body>
-<h1>Результат </h1>
+<h1>Итоговая стоимость отопления </h1>
 <p><strong>Результат:</strong> ${result}</p>
 </body>
 </html>
