@@ -20,7 +20,6 @@ public class SecurityFilter implements Filter {
 	public SecurityFilter() {
 	}
 
-	@Override
 	public void destroy() {
 	}
 	
