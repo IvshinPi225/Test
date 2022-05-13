@@ -2,9 +2,9 @@ package pack;
 
 import java.io.IOException;
 
-import javax.servlet.*;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.*;
+import jakarta.servlet.*;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.*;
 
 @WebServlet(name="Calc", urlPatterns="/Calc")
 public class Calc extends HttpServlet {

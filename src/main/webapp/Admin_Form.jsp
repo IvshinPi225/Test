@@ -47,7 +47,6 @@ text-align: center;
 
 <ul id="navbar">
 <li><a href="${pageContext.request.contextPath}">Главная</a></li>
-<li><a href="${pageContext.request.contextPath}/loginView.jsp">Авторизация</a></li>
 <li><a href="${pageContext.request.contextPath}/Info.jsp">О нас</a></li>
 </ul>
 
@@ -76,6 +75,23 @@ text-align: center;
 
 <input type="submit" name="sign" value="Calculate">
 </form>
+
+<script>
+	var colorArray = [ "#084", "#FF69B4", "#eee", "#FFFACD",
+						"#00CED1", "#D2691E" ]; // массив с цветами
+	var i = 0; // итератор
+
+	function changeColor(){
+		document.body.style.background = colorArray[i];
+		i++;
+		if( i > colorArray.length - 1){
+			i = 0;
+		}
+	}
+
+</script>
+
+<input type="button" value= "Админская фича" onclick="javascript:changeColor();"/>
 
 </body>
 </html>

@@ -46,7 +46,7 @@ text-align: center;
 <body>
 
 <ul id="navbar">
-<li><a href="${pageContext.request.contextPath}">Главная</a></li>
+<li><a href="${pageContext.request.contextPath}/Admin_Form.jsp">Главная</a></li>
 <li><a href="${pageContext.request.contextPath}/loginView.jsp">Авторизация</a></li>
 <li><a href="${pageContext.request.contextPath}/Info.jsp">О нас</a></li>
 </ul>
