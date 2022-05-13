@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name="LoginServlet", urlPatterns="/login")
+@WebServlet("/login")
 public class LoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet {
 			request.setAttribute("errorMessage", errorMessage);
 
 			RequestDispatcher dispatcher //
-					= this.getServletContext().getRequestDispatcher("loginView.jsp");
+					= this.getServletContext().getRequestDispatcher("/loginView.jsp");
 
 			dispatcher.forward(request, response);
 			return;
