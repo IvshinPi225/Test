@@ -58,7 +58,6 @@ public class LoginServlet extends HttpServlet {
 		if (requestUri != null) {
 			response.sendRedirect(requestUri);
 		} else {
-			// По умолчанию после успешного входа в систему
 			response.sendRedirect(request.getContextPath());
 		}
 
