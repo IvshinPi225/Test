@@ -58,7 +58,7 @@ public class LoginServlet extends HttpServlet {
 		if (requestUri != null) {
 			response.sendRedirect(requestUri);
 		} else {
-			response.sendRedirect(request.getContextPath());
+			response.sendRedirect(request.getContextPath() + "/Admin_Form.jsp");
 		}
 
 	}

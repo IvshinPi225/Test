@@ -7,10 +7,6 @@
 <title>Калькулятор - сложение целых чисел</title>
 </head>
 <style>
-
-body{
-background-color: #00b33c;
-}
 </style>
 <body>
 
