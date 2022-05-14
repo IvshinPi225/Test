@@ -68,7 +68,7 @@ text-align: center;
 <label for="second">Площадь общего имущества:</label>
 <input type="text" name="fifth" id="fifth" value="${fifth}"><br>
 
-<label for="second">Потребление тепловой энергии:</label>
+<label for="second">Потребление тепловой энергии: </label>
 <input type="text" name="sixth" id="sixth" value="${sixth}"><br>
 
 <label for="second">Площадь неотопляемых помещений:</label>
